@@ -4,7 +4,7 @@ import dynamic from 'next/dynamic'
 import Instructions from '@/components/dom/instructions'
 
 // Step 2 - update Box components
-const Box = dynamic(() => import('@/components/canvas/Box'), {
+const Box = dynamic(() => import('@/components/canvas/Duck'), {
   ssr: false,
 })
 

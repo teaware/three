@@ -1,7 +1,7 @@
 import Instructions from '@/components/dom/instructions'
 import dynamic from 'next/dynamic'
 
-const Box = dynamic(() => import('@/components/canvas/Box'), {
+const Box = dynamic(() => import('@/components/canvas/Duck'), {
   ssr: false,
 })
 
